@@ -13,5 +13,5 @@ $(document).ready(function()
     setInterval(function()
     {
         $('.grid-container').load("location.html");
-    }, 1000);
+    }, 5000);
 })
