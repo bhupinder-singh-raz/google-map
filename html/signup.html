@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./../css/signup.css">
+</head>
+<body>    
+    <div class="form-container">
+        <u><h2>Signup</h2></u>
+
+        <table>
+            <tr>
+                <td><label for="name">Name </label> </td> 
+                <td><input type="text" id="name" placeholder="Enter name" required ></td>
+            </tr>
+
+            <tr>
+                <td><label for="email">Email </label> </td> 
+                <td><input type="text" id = "email" placeholder="Enter email" required></td>
+            </tr>
+            
+            <tr>
+                <td><label for="mobileno">Mobile no </label> </td> 
+                <td><input type="text" id = "mobileno" placeholder="Enter Mobile no" required></td>
+            </tr>
+
+            <tr>
+                <td><label for="password">Password </label> </td> 
+                <td><input type="password" id = "password" placeholder="Enter password" required></td>
+            </tr>
+            
+            <tr>
+                <td><label for="confirmpassword">Retype Password </label> </td> 
+                <td><input type="password" id = "confirmpassword" placeholder="Retype password" required></td>
+            </tr>
+        
+            <tr>
+                <td><input type="submit" onclick="sendData()" value="submit"></td>
+            </tr>
+
+            <tr><td><span class="errorholder" id="validationmessage"></span></td></tr>
+        </table>
+
+        <div class="login-container">
+            <span>Already have account</span>
+            <a href="login.html">login</a>
+        </div>
+        
+    </div>
+
+    <script src="./../js/signup.js"></script>
+
+</body>
+</html>

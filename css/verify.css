@@ -1,0 +1,35 @@
+body
+{
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+div
+{
+    border: 2px solid black;
+    padding: 20px;
+}
+
+u
+{
+    color: orange;
+}
+
+input[type="text"]
+{
+    width: 50%;
+    height: 20px;
+    padding: 6px;
+}
+
+span
+{
+    color: rgb(218, 56, 56);
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+button
+{
+    cursor: pointer;
+}
