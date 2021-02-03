@@ -31,7 +31,7 @@ function gotPos(position)
 
     console.log(a);
 
-    fetch("http://localhost:5000/update", 
+    fetch("https://swiggytrackingsystem.herokuapp.com/update", 
     {
         method: 'PATCH',
         mode: 'cors', 
@@ -70,7 +70,7 @@ function logout()
     var b = {"id" : localStorage.getItem("id")};
 
     // api call (to make isavailable = 0)
-    fetch("http://localhost:5000/logout", 
+    fetch("https://swiggytrackingsystem.herokuapp.com/logout", 
     {
         method: 'POST',
         mode: 'cors', 

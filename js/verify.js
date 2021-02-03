@@ -15,7 +15,7 @@ function check()
         var obj = {email : email, otp : otp};
 
         // api call    
-        fetch("http://localhost:5000/signup/verify", 
+        fetch("https://swiggytrackingsystem.herokuapp.com/signup/verify", 
         {
             method: 'POST',
             mode: 'cors', 
@@ -52,7 +52,7 @@ function resendOtp()
     console.log(obj);
 
     // api call    
-    fetch("http://localhost:5000/resendotp", 
+    fetch("https://swiggytrackingsystem.herokuapp.com/resendotp", 
     {
         method: 'POST',
         mode: 'cors', 

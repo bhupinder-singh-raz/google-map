@@ -15,7 +15,7 @@ function check()
         var obj = {name : n, password : pass};
 
         // api call    
-        fetch("http://localhost:5000/login", 
+        fetch("https://swiggytrackingsystem.herokuapp.com/login", 
         {
             method: 'POST',
             mode: 'cors', 

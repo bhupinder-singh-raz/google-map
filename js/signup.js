@@ -20,7 +20,7 @@ function sendData()
     {
         var obj = {name : n, email : e, mobileno : m, password : pass1, confirmpassword : pass2};
         
-        fetch("http://localhost:5000/signup", 
+        fetch("https://swiggytrackingsystem.herokuapp.com/signup", 
         {
             method: 'POST',
             mode: 'cors', 
